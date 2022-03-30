@@ -198,6 +198,9 @@ h2 {
   .cards {
     overflow: scroll;
   }
+    .introduction-info {
+    margin-right: 5px;
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
