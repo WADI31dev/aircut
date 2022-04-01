@@ -130,6 +130,8 @@ h2 {
   margin: 8px;
   border:  1px solid #F3B680;
   text-align: center;
+  animation: fadeInUpW;
+  animation-duration: 1s;
 }
 
 .cards-btn {
@@ -258,13 +260,16 @@ h2 {
   }
 }
 
+/*Animations*/
 
+@keyframes fadeInUpW {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
 
-
-
-
-
-
-
-
-
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
